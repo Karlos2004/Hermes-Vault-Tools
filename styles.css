@@ -1,0 +1,19 @@
+.hermes-vault-tools-confirm .hermes-vault-tools-path-section {
+  margin-block: var(--size-4-4);
+}
+
+.hermes-vault-tools-confirm .hermes-vault-tools-path-section code {
+  display: block;
+  margin-top: var(--size-2-2);
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+.hermes-vault-tools-confirm .setting-item {
+  border-top: 0;
+  padding-top: var(--size-4-4);
+}
+
+.hermes-vault-tools-confirm .setting-item-info {
+  display: none;
+}

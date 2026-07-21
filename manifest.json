@@ -1,0 +1,9 @@
+{
+  "id": "hermes-vault-tools",
+  "name": "Hermes Vault Tools",
+  "version": "1.0.0",
+  "minAppVersion": "1.8.0",
+  "description": "Centralizes custom vault actions, starting with archiving the current note.",
+  "author": "Hermes",
+  "isDesktopOnly": false
+}
