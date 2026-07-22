@@ -4,9 +4,6 @@ Hermes Vault Tools is an Obsidian community plugin that provides a central home
 for custom vault actions. The current release contains one command: **Archive
 Current Note**.
 
-<img width="2204" height="1696" alt="image" src="https://github.com/user-attachments/assets/57e17332-8946-4791-a6aa-1f976a41d689" />
-
-
 The command confirms the source and destination paths, creates missing archive
 folders, and moves the active Markdown note without changing its contents,
 frontmatter, or metadata.
@@ -31,6 +28,22 @@ hermes-vault-tools/
 ```
 
 The production build bundles the TypeScript entry point into `main.js`.
+
+## Archive path rule
+
+The command removes the numeric prefix from the note's first folder and moves
+the remaining path beneath `50_Archive`:
+
+```text
+40_Resources/News/Test.md
+→ 50_Archive/Resources/News/Test.md
+
+20_Knowledge/AI/Test.md
+→ 50_Archive/Knowledge/AI/Test.md
+
+30_Projects/Woluk/Test.md
+→ 50_Archive/Projects/Woluk/Test.md
+```
 
 ## Build
 

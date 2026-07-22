@@ -6,7 +6,7 @@ const PREFIXED_FOLDER_PATTERN = /^\d+_(.+)$/;
 
 /**
  * Maps a note under `<number>_<FolderName>` to
- * `50_Archives/<FolderName>` while preserving the remaining path.
+ * `50_Archive/<FolderName>` while preserving the remaining path.
  */
 export function getArchivePath(currentPath: string): string {
   const normalizedPath = normalizePath(currentPath);

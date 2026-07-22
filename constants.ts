@@ -1,7 +1,7 @@
 import type { IconName } from "obsidian";
 
 /** Top-level vault folder used for archived notes. */
-export const ARCHIVE_ROOT = "50_Archives";
+export const ARCHIVE_ROOT = "50_Archive";
 
 /** Obsidian command metadata for Archive Current Note. */
 export const ARCHIVE_COMMAND = {
